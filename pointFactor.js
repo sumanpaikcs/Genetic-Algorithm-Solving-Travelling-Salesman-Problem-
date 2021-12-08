@@ -29,7 +29,7 @@ function setup() {
 function draw() {
   background(600);
 
-  // GA
+  // Genetic Algorithm Functions
   calculateFitness();
   normalizeFitness();
   nextGeneration();
